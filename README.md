@@ -1,3 +1,5 @@
+lsmod | grep bbr
+
 # CBBR
 这是一个方便开启魔改bbr&bbr的脚本。执行两步后最后输出`Finish！`提示，则成功。  
 需要锐速的内核更换，请移步[https://github.com/liyubaku/XRSK](https://github.com/liyubaku/XRSK)
