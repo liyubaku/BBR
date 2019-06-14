@@ -1,6 +1,12 @@
+检查BBR状态
+
 lsmod | grep bbr
 
-# CBBR
+一键安装原版BBR
+
+wget --no-check-certificate https://github.com/liyubaku/BBR/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+
+# BBR
 这是一个方便开启魔改bbr&bbr的脚本。执行两步后最后输出`Finish！`提示，则成功。  
 需要锐速的内核更换，请移步[https://github.com/liyubaku/XRSK](https://github.com/liyubaku/XRSK)
 
@@ -21,13 +27,13 @@ dpkg -i libssl.deb
 ```
 **第一步：**
 ```
-apt-get install -y wget && wget --no-check-certificate -O D1.sh https://raw.githubusercontent.com/liyubaku/CBBR/master/D1.sh && bash D1.sh
+apt-get install -y wget && wget --no-check-certificate -O D1.sh https://raw.githubusercontent.com/liyubaku/BBR/master/D1.sh && bash D1.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O D2.sh https://raw.githubusercontent.com/liyubaku/CBBR/master/D2.sh && bash D2.sh
+wget --no-check-certificate -O D2.sh https://raw.githubusercontent.com/liyubaku/BBR/master/D2.sh && bash D2.sh
 ```
 
 ---
@@ -35,39 +41,39 @@ wget --no-check-certificate -O D2.sh https://raw.githubusercontent.com/liyubaku/
 会把内核锁定在4.15  
 **第一步：**
 ```
-apt install -y wget && wget --no-check-certificate -O D3.sh https://raw.githubusercontent.com/liyubaku/CBBR/master/D3.sh && bash D3.sh
+apt install -y wget && wget --no-check-certificate -O D3.sh https://raw.githubusercontent.com/liyubaku/BBR/master/D3.sh && bash D3.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O D4.sh https://raw.githubusercontent.com/liyubaku/CBBR/master/D4.sh && bash D4.sh
+wget --no-check-certificate -O D4.sh https://raw.githubusercontent.com/liyubaku/BBR/master/D4.sh && bash D4.sh
 ```
 
 ---
 ### CentOS7开启魔改BBR
 **第一步：**
 ```
-yum install -y wget && wget --no-check-certificate -O C71.sh https://raw.githubusercontent.com/liyubaku/CBBR/master/C71.sh && bash C71.sh
+yum install -y wget && wget --no-check-certificate -O C71.sh https://raw.githubusercontent.com/liyubaku/BBR/master/C71.sh && bash C71.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O C72.sh https://raw.githubusercontent.com/liyubaku/CBBR/master/C72.sh && bash C72.sh
+wget --no-check-certificate -O C72.sh https://raw.githubusercontent.com/liyubaku/BBR/master/C72.sh && bash C72.sh
 ```
 
 ---
 ### CentOS6开启魔改BBR
 **第一步：**
 ```
-yum install -y wget && wget --no-check-certificate -O C61.sh https://raw.githubusercontent.com/liyubaku/CBBR/master/C61.sh && bash C61.sh
+yum install -y wget && wget --no-check-certificate -O C61.sh https://raw.githubusercontent.com/liyubaku/BBR/master/C61.sh && bash C61.sh
 ```
 之后输入Y就会重启
 
 **第二步：**
 ```
-wget --no-check-certificate -O C62.sh https://raw.githubusercontent.com/liyubaku/CBBR/master/C62.sh && bash C62.sh
+wget --no-check-certificate -O C62.sh https://raw.githubusercontent.com/liyubaku/BBR/master/C62.sh && bash C62.sh
 ```
 
 ### Tips
